@@ -1,6 +1,7 @@
-data_dir="./data"
+[server]
+dataDir="./data"
 host="127.0.0.1"
-http_port=8282
+port=8282
 #tcp_port=8283
 #tls_key="key.pem"
 
@@ -25,11 +26,7 @@ type = "stdin"
 #fake generator source
 [sources.generate_log]
 type = "dummy"
-props= {
-name="string"
-level="choice(info|warn|debug|error)"
-msg="text"
-}
+props= { name="string", level="choice(info|warn|debug|error)", msg="text" }
 format = "csv|text|json"
 rate = "100/s|cron|every 1s"
 duration="2h"
@@ -42,7 +39,7 @@ encoding= "json|ndjson|binary|text"
 auth={}
 
 [sources.remote-http]
-type="fetch"
+type="http-fetch"
 target="123.635.98.23:80" # will scrap by sending last_fetch_id
 encoding= "json|ndjson|binary|text"
 interval="cron|every-1s"

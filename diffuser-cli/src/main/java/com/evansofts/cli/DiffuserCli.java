@@ -31,22 +31,24 @@ public class DiffuserCli {
             }
 
             Object command  = jCommander.getObjects().get(0);
-            switch (parsedCmdName) {
-                case "serve":
-                    ((ServeCommand) command).run();
-                    break;
-                case "validate":
-                    ((ValidateCommand) command).run();
-                    break;
-                case "graph":
-                    ((GraphCommand) command).run();
-                    break;
-                case "version":
-                    ((VersionCommand) command).run();
-                    break;
-                default:
-                    this.rootCommand.usage();
-            }
+            RunnableCommand runnableCommand = (RunnableCommand) command;
+            runnableCommand.run();
+//            switch (parsedCmdName) {
+//                case "serve":
+//                    ((ServeCommand) command).run();
+//                    break;
+//                case "validate":
+//                    ((ValidateCommand) command).run();
+//                    break;
+//                case "graph":
+//                    ((GraphCommand) command).run();
+//                    break;
+//                case "version":
+//                    ((VersionCommand) command).run();
+//                    break;
+//                default:
+//                    this.rootCommand.usage();
+//            }
 
         } catch (ParameterException e) {
             System.err.println(e.getLocalizedMessage());
