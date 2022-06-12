@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bf7b04f-ba98-4d6e-b5a2-d77007ef4787" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/evansofts/Program.java" afterDir="false" />
+    <list default="true" id="376508c5-9c9c-4001-acc1-07b9bfe44255" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-cli/src/main/java/com/evansofts/cli/ServeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-cli/src/main/java/com/evansofts/cli/ServeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/actors/Universe.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/actors/Universe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/core/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/core/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/natives/sources/DummySource.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/natives/sources/DummySource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/BaseComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/BaseComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/IComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/IComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/Sink.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/Sink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/Source.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +27,38 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/diffuser-sdk">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="diffuser" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="diffuser" type="f1a62948:ProjectNode" />
+                <item name="diffuser-sdk" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,48 +67,68 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="m080sd5z" />
+    <option name="directoryName" value="mlcnon3i" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="27wYdoTq8brxTDO8038H40ifZf1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="29k3Ec8Ks4OFTpbnSNN8Eqlc4wI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/evance/PROJECTS/diffuser&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.evansofts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.serve">
     <configuration name="main" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.evansofts.Program" />
-      <module name="diffuser.main" />
-      <option name="PROGRAM_PARAMETERS" value="serve" />
+      <module name="diffuser.diffuser-cli.main" />
+      <option name="PROGRAM_PARAMETERS" value="version" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="serve" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.evansofts.Program" />
+      <module name="diffuser.diffuser-cli.main" />
+      <option name="PROGRAM_PARAMETERS" value="serve --config ./examples/config.toml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.serve" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6bf7b04f-ba98-4d6e-b5a2-d77007ef4787" name="Changes" comment="" />
-      <created>1650232705772</created>
+      <changelist id="376508c5-9c9c-4001-acc1-07b9bfe44255" name="Changes" comment="" />
+      <created>1653643147820</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650232705772</updated>
+      <updated>1653643147820</updated>
     </task>
     <servers />
   </component>
@@ -95,5 +142,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/web/WebServer.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

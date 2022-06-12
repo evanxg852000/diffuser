@@ -5,7 +5,7 @@ import com.beust.jcommander.Parameters;
 
 
 @Parameters(commandDescription = "validate a configuration file")
-public class ValidateCommand {
+public class ValidateCommand implements RunnableCommand {
     @Parameter(names = "--config")
     private String fileName;
 

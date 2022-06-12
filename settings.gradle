@@ -1,2 +1,5 @@
 rootProject.name = 'diffuser'
+include 'diffuser-core'
+include 'diffuser-sdk'
+include 'diffuser-cli'
 
