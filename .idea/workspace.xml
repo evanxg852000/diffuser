@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="376508c5-9c9c-4001-acc1-07b9bfe44255" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evansofts/Program.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evansofts/cli/DiffuserCli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evansofts/cli/GraphCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evansofts/cli/ServeCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evansofts/cli/ValidateCommand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/evansofts/cli/VersionCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-cli/src/main/java/com/evansofts/cli/ServeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-cli/src/main/java/com/evansofts/cli/ServeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/actors/Universe.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/actors/Universe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/core/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/core/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/natives/sources/DummySource.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-core/src/main/java/com/evansofts/natives/sources/DummySource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/BaseComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/BaseComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/IComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/IComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/Sink.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/Sink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/diffuser-sdk/src/main/java/com/evansofts/core/Source.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +90,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.evansofts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Application.serve">

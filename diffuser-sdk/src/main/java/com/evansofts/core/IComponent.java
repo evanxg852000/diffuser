@@ -9,8 +9,8 @@ public interface IComponent {
     // Returns the config of this IComponent.
     Config getConfig();
 
-    // Validates config and creates an instance of this IComponent.
-    IComponent createInstance(Config config);
-
     void onReceive(Context ctx, Object msg);
+
+     // Denotes if this component should send bootstrap message to himself.
+     boolean isSelfReferenced();
 }

@@ -2,6 +2,7 @@ package com.evansofts.actors;
 
 import akka.actor.ActorRef;
 import akka.actor.ActorSystem;
+import com.evansofts.core.BaseComponent;
 import com.evansofts.core.IComponent;
 
 import java.util.HashMap;
@@ -18,6 +19,10 @@ public class Universe {
     public void spawnActor(IComponent component) {
         ActorRef actorRef = actorSystem.actorOf(ComponentActor.props(component));
         this.actors.put(component.instanceId(), actorRef);
+
+        if (component.isSelfReferenced()) {
+            actorRef.tell(new BaseComponent.LoopMessage(), null);
+        }
     }
 
     public void shutdown() {

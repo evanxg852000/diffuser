@@ -15,5 +15,8 @@ public abstract class BaseComponent implements IComponent {
         return this.getConfig().get("id");
     }
 
-
+    @Override
+    public boolean isSelfReferenced() {
+        return false;
+    }
 }

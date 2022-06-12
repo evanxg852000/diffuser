@@ -17,5 +17,7 @@ https://jcommander.org/
 https://www.baeldung.com/java-snake-yaml
 https://github.com/kamranzafar/JCL
 https://github.com/TheElectronWill/Night-Config
+https://www.javaguides.net/p/java-jackson-json-tutorial-with-examples.html
+
 
 
